@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>Core platform library</Description>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+        <PackageReference Include="Roblox.Configuration" Version="1.2.4" />
+        <PackageReference Include="Roblox.Configuration.Environment" Version="1.2.4" />
+	</ItemGroup>
+
+</Project>

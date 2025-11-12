@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Core platform assembly based around mathematically oriented classes.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Statistics/TDistribution.csv" />
+
+    <EmbeddedResource Include="Statistics/TDistribution.csv" />
+</ItemGroup>
+
+</Project>
+  
